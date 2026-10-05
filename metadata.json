@@ -1,0 +1,6 @@
+{
+  "name": "Folio & Quill Booksellers",
+  "description": "An independent literary bookstore and bindery featuring curated fiction, rare clothbound editions, author salons, and bespoke book subscriptions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

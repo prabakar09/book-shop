@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-reading: "Newsreader", Garamond, Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+/* Custom book styles */
+.font-serif-display {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+.font-reading {
+  font-family: var(--font-reading), Georgia, serif;
+}
+
+.font-sans-body {
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Subtle book paper texture */
+.bg-parchment {
+  background-color: #F8F5EE;
+}
+
+.bg-warm-paper {
+  background-color: #FBF9F5;
+}
+
+/* Custom scrollbars for readers & drawers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #D6CEBE;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B8AC97;
+}
